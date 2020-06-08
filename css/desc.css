@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+* {margin: 0;padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap');
+
+
+ol,ul {list-style: none;}
+
+a:link { text-decoration: none; color: #333;}
+a:active {text-decoration: none;color: #333;}
+a:hover {text-decoration: none;color: #333;}
+a:focus {text-decoration: none;color: #333;}
+a:visited {text-decoration: none;color: #333;}
+
+
+
+body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; color:#333;background:#f5f2ed;}
+
+
+.project_inner{
+	width: 1200px;
+	margin: 150px auto;
+
+}
+/*이미지들어갈곳*/
+
+.img{
+	width: 100%;
+	position: relative;
+	
+}
+
+
+.project_img{
+    line-height: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+	
+}
+
+/*// 이미지들어갈곳*/
+
+
+/* 동영상부분 */
+.video_guide{
+	position: absolute;
+	top:245px;
+	right:190px;
+	
+	
+	
+}
+.frame{
+	position: absolute;
+    top:225px;
+	right: 422px;
+	z-index: 1;
+	
+}
+
+/* // 동영상부분 */
+
+
+
+/*website 링크*/
+.link_btn {
+	position: absolute;
+	top:850px;
+	left:50%;
+	margin-left:-55px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	border: 1px solid #242223;
+	padding:31px;
+	box-sizing: border-box;
+	background: #f5f2ed;
+	transition: 0.8s;
+	box-shadow: 5px 2px 1px #242223;
+}
+.link_btn a{
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.link_btn:hover{
+	background:#f37d6b;
+	border:none;
+	box-shadow:none;
+} 
+.link_btn:hover a{
+	color:#fff;
+}
+.link_btn a:hover{
+	color:#fff;
+}
+/* //website 링크*/
+
+
+
+
+
+/* 뒤로가기 버튼*/
+
+.back{
+	margin-top: 50px;
+	padding-left: 50%;
+	margin-left: -40px;
+}
+.back_button{
+	text-transform: uppercase;
+	display: inline-block;
+	background: #242223;
+	width:80px;
+	height: 80px;
+	padding:22px 0 0 20px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	color:#fff;
+	transition: 0.5s;
+}
+
+.back_button a{
+	color: #fff;
+
+}
+
+.back_button:hover {
+	background: #f5f2ed;
+	color: #242223;
+}
+
+.back_button:hover a{
+	color: #242223;
+}
+/* //뒤로가기 버튼*/

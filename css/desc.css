@@ -18,29 +18,256 @@ a:visited {text-decoration: none;color: #333;}
 body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; color:#333;background:#f5f2ed;}
 
 
+
+
+
+
+.bg1{background: url("../project/project1_doremi/background_doremi.png") no-repeat center top;}
+
+.bg2{background: url("../project/project2_busanfolk/bg_busanfolk.png") no-repeat center top;}
+
+.bg3{background: url("../project/project3_starmi/bg_starmi.png") no-repeat center -39px;
+}
+
+.bg4{background: url("../project/project5_bescented/bg_bescented.png") no-repeat center -15px;
+}
+
+
+
+
 .project_inner{
-	width: 1200px;
-	margin: 150px auto;
+	max-width: 1200px;
+	margin: auto;
+    margin-bottom: 150px;
+    padding-top:150px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*이미지들어갈곳*/
 
-.img{
+.re_img{
 	width: 100%;
 	position: relative;
-	
 }
+	
 
 
 .project_img{
     line-height: 0;
-	width: 100%;
-	height: 100%;
 	box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
-	
+
 }
+	
+
+
 
 /*// 이미지들어갈곳*/
+
+
+/*  website 링크  */
+
+/*  도레미커피빵집-링크  */
+.dore_link_btn {
+	position: absolute;
+	top:850px;
+	left:50%;
+	margin-left:-55px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	border: 1px solid #242223;
+	padding:31px;
+	box-sizing: border-box;
+	background: #fff;
+	transition: 0.8s;
+	box-shadow: 5px 2px 1px #242223;
+	z-index: 10;
+}
+.dore_link_btn a{
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.dore_link_btn:hover{
+	background:#f37d6b;
+	border:none;
+	box-shadow:none;
+} 
+.dore_link_btn:hover a{
+	color:#fff;
+}
+.dore_link_btn a:hover{
+	color:#fff;
+}
+
+/* 부산포민속박물관-링크 */
+
+.bufolk_link_btn {
+	position: absolute;
+	top:520px;
+	left:22%;
+	/*margin-left:-75px;*/
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+	/*border: 1px solid #242223;*/
+	padding:7px 0 0 55px;;
+	box-sizing: border-box;
+	background: #fff;
+	transition: 0.5s;
+	z-index: 10;
+	/*box-shadow: 5px 2px 1px #242223;*/
+}
+.bufolk_link_btn a{
+	text-transform: uppercase;
+	font-weight: 500;
+    color:#866a56
+}
+.bufolk_link_btn:hover{
+	background:#866a56;
+	border:none;
+	box-shadow:none;
+} 
+.bufolk_link_btn:hover a{
+	color:#fff;
+}
+.bufolk_link_btn a:hover{
+	color:#fff;
+}
+
+/* 스타미피부과-링크 */
+
+.starmi_link_btn {
+	position: absolute;
+	top:870px;
+	left:50%;
+	margin-left:-90px;
+	width: 200px;
+	height: 50px;
+	/*border-radius: 10px;*/
+	border: 1px solid #ef2074;
+	padding:7px 0 0 80px;
+	box-sizing: border-box;
+	background: #fff;
+	transition: 0.8s;
+	z-index: 10;
+	/*box-shadow: 5px 2px 1px #242223;*/
+}
+.starmi_link_btn a{
+	text-transform: uppercase;
+	font-weight: 500;
+    color:#ef2074;
+}
+.starmi_link_btn:hover{
+	background:#99cfdd;
+	border:none;
+	box-shadow:none;
+} 
+.starmi_link_btn:hover a{
+	color:#fff;
+}
+.starmi_link_btn a:hover{
+	color:#fff;
+}
+
+
+/*비센트쇼핑몰 -링크 */
+
+.be_link_btn {
+	position: absolute;
+	top:460px;
+	left:44%;
+	/*margin-left:-90px;*/
+	width: 150px;
+	height: 50px;
+	/*border-radius: 10px;*/
+	/*border: 1px solid #ef2074;*/
+	padding:7px 0 0 55px;
+	box-sizing: border-box;
+	background: #fcdde2;
+	transition: 0.8s;
+	z-index: 10;
+	/*box-shadow: 5px 2px 1px #242223;*/
+}
+.be_link_btn a{
+	text-transform: uppercase;
+	font-weight: 500;
+    color:#171c30;
+}
+.be_link_btn:hover{
+	background:#171c30;
+	border:none;
+	box-shadow:none;
+} 
+.be_link_btn:hover a{
+	color:#fff;
+}
+.be_link_btn a:hover{
+	color:#fff;
+}
+
+
+/* 여행주간-링크 */
+
+.traval_link_btn {
+	position: absolute;
+	top:430px;
+	left:50%;
+	margin-left:-70px;
+	width: 150px;
+	height: 50px;
+	/*border-radius: 10px;*/
+	/*border: 1px solid #ef2074;*/
+	padding:7px 0 0 55px;
+	box-sizing: border-box;
+	background: #78a6a4;
+	transition: 0.8s;
+	z-index: 10;
+	/*box-shadow: 5px 2px 1px #242223;*/
+}
+.traval_link_btn a{
+	text-transform: uppercase;
+	font-weight: 500;
+    color:#fff;
+}
+.traval_link_btn:hover{
+	background:#3c433a;
+	border:none;
+	box-shadow:none;
+} 
+.traval_link_btn:hover a{
+	color:#fff;
+}
+.traval_link_btn a:hover{
+	color:#fff;
+}
+
+
+
+
+/* //website 링크*/
+
+
+
+
+
+
+
+
 
 
 /* 동영상부분 */
@@ -64,38 +291,7 @@ body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; co
 
 
 
-/*website 링크*/
-.link_btn {
-	position: absolute;
-	top:850px;
-	left:50%;
-	margin-left:-55px;
-	width: 100px;
-	height: 100px;
-	border-radius: 50px;
-	border: 1px solid #242223;
-	padding:31px;
-	box-sizing: border-box;
-	background: #f5f2ed;
-	transition: 0.8s;
-	box-shadow: 5px 2px 1px #242223;
-}
-.link_btn a{
-	text-transform: uppercase;
-	font-weight: 500;
-}
-.link_btn:hover{
-	background:#f37d6b;
-	border:none;
-	box-shadow:none;
-} 
-.link_btn:hover a{
-	color:#fff;
-}
-.link_btn a:hover{
-	color:#fff;
-}
-/* //website 링크*/
+
 
 
 
@@ -135,3 +331,155 @@ body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; co
 	color: #242223;
 }
 /* //뒤로가기 버튼*/
+
+
+
+
+
+
+@media all and (max-width:780px) {
+	
+
+.re_img{
+	width: 100%;
+}
+
+/*  website 링크  */
+
+/*  도레미커피빵집-링크  */
+.dore_link_btn {
+	/*position: absolute;*/
+	top:45%;
+	left:50%;
+	/*margin-left:-55px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	border: 1px solid #242223;
+	padding:31px;
+	box-sizing: border-box;
+	background: #fff;
+	transition: 0.8s;
+	box-shadow: 5px 2px 1px #242223;*/
+}
+
+
+/* 부산포민속박물관-링크 */
+
+.bufolk_link_btn {
+	/*position: absolute;*/
+	top:32%;
+	left:5%;
+/*
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+    padding:7px 0 0 55px;;
+	box-sizing: border-box;
+	background: #fff;
+	transition: 0.5s;
+	z-index: 10;
+*/
+
+}
+
+
+/* 스타미피부과-링크 */
+
+.starmi_link_btn {
+	/*position: absolute;*/
+	top:48%;
+	left:50%;
+	margin-left:-100px;
+	/*width: 200px;
+	height: 50px;
+	border: 1px solid #ef2074;
+	padding:7px 0 0 80px;
+	box-sizing: border-box;
+	background: #fff;
+	transition: 0.8s;
+	z-index: 10;*/
+
+	}
+
+/*비센트쇼핑몰 -링크 */
+
+.be_link_btn {
+	/*position: absolute;*/
+	top:25%;
+	left:55%;
+	/*width: 150px;
+	height: 50px;
+	padding:7px 0 0 55px;
+	box-sizing: border-box;
+	background: #fcdde2;
+	transition: 0.8s;
+	z-index: 10;*/
+}
+
+/* 여행주간-링크 */
+
+.traval_link_btn {
+	/*position: absolute;*/
+	top:26%;
+	left:50%;
+	/*margin-left:-70px;
+	width: 150px;
+	height: 50px;
+    padding:7px 0 0 55px;
+	box-sizing: border-box;
+	background: #78a6a4;
+	transition: 0.8s;
+	z-index: 10;*/
+	}
+
+
+
+/* //website 링크*/
+
+
+
+	
+	
+
+/* 동영상부분 */
+.video_guide{
+	position: absolute;
+	top:196px;
+	right:-12%;
+	
+	width:50%;
+	
+	
+	
+}
+.frame{
+	position: absolute;
+    top:185px;
+	right:-14%;
+	z-index: 1;
+	
+}
+	.frame_img{
+		width:50%;
+	}
+	
+/* // 동영상부분 */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+} /*전체*/
+
+
+
+
+
+
+

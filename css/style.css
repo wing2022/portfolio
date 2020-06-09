@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
   #fh5co-header .navbar-brand {
-    color: #52d3aa !important;
+    color: #000 !important;
   }
   #fh5co-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
@@ -311,6 +311,11 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
   color:#242223;
 }
+#fh5co-header .navbar-brand img{
+	width:60%
+}
+
+
 #fh5co-header.navbar-fixed-top {
   position: fixed !important;
   background: #fff;
@@ -1469,6 +1474,13 @@ margin-left: -25%;
 text-align: left;*/
 margin-left: 0
 }
+
+	
+	
+	
+	
+	
+	
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -55,28 +55,52 @@ body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; co
 
 
 
-
-
-
 /*이미지들어갈곳*/
 
 .re_img{
 	width: 100%;
-	position: relative;
 }
+
+
+	
 	
 
 
 .project_img{
+
     line-height: 0;
 	box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
-
+	position: relative;
 }
-	
-
-
 
 /*// 이미지들어갈곳*/
+
+
+
+
+
+/* 마일리지앱_동영상부분 */
+.video_guide{
+	position:absolute;
+	top:1%;
+	right:-13%;
+	
+	
+	
+}
+.frame{
+	position: absolute;
+    top:-25px;
+	right:48% ;
+	z-index: 1;
+	
+}
+
+/* // 동영상부분 */
+
+
+
+
 
 
 /*  website 링크  */
@@ -84,14 +108,14 @@ body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; co
 /*  도레미커피빵집-링크  */
 .dore_link_btn {
 	position: absolute;
-	top:850px;
+	top:6%;
 	left:50%;
 	margin-left:-55px;
 	width: 100px;
 	height: 100px;
 	border-radius: 50px;
 	border: 1px solid #242223;
-	padding:31px;
+	padding:47px 0 0 30px;
 	box-sizing: border-box;
 	background: #fff;
 	transition: 0.8s;
@@ -118,14 +142,14 @@ body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; co
 
 .bufolk_link_btn {
 	position: absolute;
-	top:520px;
-	left:22%;
+	top:4%;
+	left:6%;
 	/*margin-left:-75px;*/
 	width: 150px;
 	height: 50px;
 	border-radius: 10px;
 	/*border: 1px solid #242223;*/
-	padding:7px 0 0 55px;;
+	padding:24px 0 0 55px;;
 	box-sizing: border-box;
 	background: #fff;
 	transition: 0.5s;
@@ -153,19 +177,18 @@ body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; co
 
 .starmi_link_btn {
 	position: absolute;
-	top:870px;
+	top:14.2%;
 	left:50%;
-	margin-left:-90px;
+	margin-left:-95px;
 	width: 200px;
 	height: 50px;
 	/*border-radius: 10px;*/
 	border: 1px solid #ef2074;
-	padding:7px 0 0 80px;
+	padding:24px 0 0 80px;
 	box-sizing: border-box;
 	background: #fff;
 	transition: 0.8s;
 	z-index: 10;
-	/*box-shadow: 5px 2px 1px #242223;*/
 }
 .starmi_link_btn a{
 	text-transform: uppercase;
@@ -189,19 +212,15 @@ body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; co
 
 .be_link_btn {
 	position: absolute;
-	top:460px;
+	top:3.6%;
 	left:44%;
-	/*margin-left:-90px;*/
 	width: 150px;
 	height: 50px;
-	/*border-radius: 10px;*/
-	/*border: 1px solid #ef2074;*/
-	padding:7px 0 0 55px;
+	padding:25px 0 0 55px;
 	box-sizing: border-box;
 	background: #fcdde2;
 	transition: 0.8s;
 	z-index: 10;
-	/*box-shadow: 5px 2px 1px #242223;*/
 }
 .be_link_btn a{
 	text-transform: uppercase;
@@ -225,14 +244,12 @@ body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; co
 
 .traval_link_btn {
 	position: absolute;
-	top:430px;
+	top:10%;
 	left:50%;
 	margin-left:-70px;
 	width: 150px;
 	height: 50px;
-	/*border-radius: 10px;*/
-	/*border: 1px solid #ef2074;*/
-	padding:7px 0 0 55px;
+    padding:25px 0 0 55px;
 	box-sizing: border-box;
 	background: #78a6a4;
 	transition: 0.8s;
@@ -256,38 +273,8 @@ body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; co
 	color:#fff;
 }
 
-
-
-
 /* //website 링크*/
 
-
-
-
-
-
-
-
-
-
-/* 동영상부분 */
-.video_guide{
-	position: absolute;
-	top:245px;
-	right:190px;
-	
-	
-	
-}
-.frame{
-	position: absolute;
-    top:225px;
-	right: 422px;
-	z-index: 1;
-	
-}
-
-/* // 동영상부분 */
 
 
 
@@ -349,91 +336,36 @@ body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; co
 /*  도레미커피빵집-링크  */
 .dore_link_btn {
 	/*position: absolute;*/
-	top:45%;
-	left:50%;
-	/*margin-left:-55px;
-	width: 100px;
-	height: 100px;
-	border-radius: 50px;
-	border: 1px solid #242223;
-	padding:31px;
-	box-sizing: border-box;
+	top:6%;
+	/*left:50%;*/
+	margin-left:-35px;
+	width: 70px;
+	height: 70px;
+	/*border-radius: 50px;
+	border: 1px solid #242223;*/
+	padding:34px 0 0 15px;
+	/*box-sizing: border-box;
 	background: #fff;
 	transition: 0.8s;
-	box-shadow: 5px 2px 1px #242223;*/
-}
-
-
-/* 부산포민속박물관-링크 */
-
-.bufolk_link_btn {
-	/*position: absolute;*/
-	top:32%;
-	left:5%;
-/*
-	width: 150px;
-	height: 50px;
-	border-radius: 10px;
-    padding:7px 0 0 55px;;
-	box-sizing: border-box;
-	background: #fff;
-	transition: 0.5s;
-	z-index: 10;
-*/
-
-}
-
-
-/* 스타미피부과-링크 */
-
-.starmi_link_btn {
-	/*position: absolute;*/
-	top:48%;
-	left:50%;
-	margin-left:-100px;
-	/*width: 200px;
-	height: 50px;
-	border: 1px solid #ef2074;
-	padding:7px 0 0 80px;
-	box-sizing: border-box;
-	background: #fff;
-	transition: 0.8s;
+	box-shadow: 5px 2px 1px #242223;
 	z-index: 10;*/
+}
 
-	}
 
 /*비센트쇼핑몰 -링크 */
 
 .be_link_btn {
-	/*position: absolute;*/
-	top:25%;
-	left:55%;
-	/*width: 150px;
-	height: 50px;
-	padding:7px 0 0 55px;
-	box-sizing: border-box;
+	/*position: absolute;
+	top:3.6%;
+	left:44%;*/
+	width: 120px;
+	height: 40px;
+	padding:20px 0 0 43px;
+	/*box-sizing: border-box;
 	background: #fcdde2;
 	transition: 0.8s;
 	z-index: 10;*/
 }
-
-/* 여행주간-링크 */
-
-.traval_link_btn {
-	/*position: absolute;*/
-	top:26%;
-	left:50%;
-	/*margin-left:-70px;
-	width: 150px;
-	height: 50px;
-    padding:7px 0 0 55px;
-	box-sizing: border-box;
-	background: #78a6a4;
-	transition: 0.8s;
-	z-index: 10;*/
-	}
-
-
 
 /* //website 링크*/
 
@@ -443,27 +375,33 @@ body{font-family:'Noto Sans KR', sans-serif; font-size:20x; line-height:36px; co
 	
 
 /* 동영상부분 */
-.video_guide{
-	position: absolute;
-	top:196px;
-	right:-12%;
 	
+	
+.video_guide{
+	position:absolute;
+	top:1%;
+	right:-13%;
 	width:50%;
 	
-	
-	
 }
+	
 .frame{
 	position: absolute;
-    top:185px;
-	right:-14%;
+    top:-10px;
+	right:48% ;
 	z-index: 1;
 	
 }
-	.frame_img{
-		width:50%;
-	}
 	
+.frame_img{
+	width:101%;
+	margin-left:-2.5px;
+
+}	
+	
+	
+	
+
 /* // 동영상부분 */
 	
 	

@@ -312,7 +312,7 @@ h1, h2, h3, h4, h5, h6 {
   color:#242223;
 }
 #fh5co-header .navbar-brand img{
-	width:60%
+	width:50%
 }
 
 
@@ -998,8 +998,8 @@ margin-left: -25%;
 }
 
 .fh5co-person {
-  border: 2px solid #f2f2f2;
-  padding: 80px 30px 30px 30px;
+  border: 1px solid #efaa9e;
+  padding: 100px 30px 30px 30px;
   float: left;
   width: 100%;
   position: relative;
@@ -1019,8 +1019,8 @@ margin-left: -25%;
   margin-bottom: 50px;
 }
 .fh5co-person figure img {
-  width: 120px;
-  border: 2px solid #f2f2f2;
+  width: 140px;
+  /*border: 2px solid #f2f2f2;*/
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;

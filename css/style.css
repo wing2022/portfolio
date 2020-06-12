@@ -958,6 +958,7 @@ margin-left: -25%;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+
 #fh5co-work .fh5co-project-item img {
   z-index: 8;
   opacity: 1;
@@ -996,6 +997,7 @@ margin-left: -25%;
 #fh5co-work .fh5co-project-item:hover h2, #fh5co-work .fh5co-project-item:hover span, #fh5co-work .fh5co-project-item:focus h2, #fh5co-work .fh5co-project-item:focus span {
   text-decoration: none !important;
 }
+
 
 .fh5co-person {
   border: 1px solid #efaa9e;

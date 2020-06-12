@@ -482,6 +482,11 @@ margin-left: -25%;
     padding-bottom: 3em;
   }
 }
+
+.con_stit{
+	font-weight: 500;
+}
+
 #fh5co-intro > div {
   display: -webkit-box;
   display: -moz-box;
